@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+ul {
+	list-style: none;
+}
+body {
+	background: #333;
+	color: #fff;
+	font-family: 'Chelsea Market', san-serif;
+	font-size: 15px;
+	line-height: 1.5;
+
+}
+
+.container {
+	width: 85%;
+	margin: auto;
+}
+.btn {
+	color: #ec4c00;
+	font-weight: bold;
+	transition: all 0.3s ease;
+}
+.btn:hover  {
+	opacity: 0.8;
+}
+.btn:hover i {
+	transform: translateX(5px);
+}
+.orange {
+	color: #ec4c00;
+}
+
+/*nav*/
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 60px;
+}
+.logo {
+	color: #f2395a;
+	font-size: 30px;
+	transform: skew(-3deg, -3deg);
+	transform-origin: center center;
+	transition: all 1s ease-in-out;
+	text-shadow: 1px 1px #d10e31,
+}
+.main-group {				 1px 1px #d10e31;
+	flex: 1;				 1px 1px #d10e31;
+	padding-left: 20px;				 1px 1px #d10e31;
+				 1px 1px #d10e31;}
+nav li {
+	display: inline-block;
+	padding: 0 10px;
+}
+nav a:hover {
+	padding-bottom: 5px;
+	border-bottom: 1px #fff solid;
+}
+/*end of nav*/
+
+
+/*showcase*/
+
+.showcase {
+	height: 400px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background: url("img/showcase.jpg") no-repeat top/cover;
+} 
+.showcase .content {
+	padding-left: 10px;
+	width: 40%;
+	color: #333;
+}
+.showcase .content p {
+	padding: 10px 0;
+}
